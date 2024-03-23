@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40833B832BA8A1C200EE10C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40833B822BA8A1C200EE10C3 /* AppDelegate.swift */; };
+		40833B852BA8A1C200EE10C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40833B842BA8A1C200EE10C3 /* SceneDelegate.swift */; };
+		40833B872BA8A1C200EE10C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40833B862BA8A1C200EE10C3 /* ViewController.swift */; };
+		40833B8A2BA8A1C200EE10C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40833B882BA8A1C200EE10C3 /* Main.storyboard */; };
+		40833B8C2BA8A1C400EE10C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40833B8B2BA8A1C400EE10C3 /* Assets.xcassets */; };
+		40833B8F2BA8A1C400EE10C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40833B8D2BA8A1C400EE10C3 /* LaunchScreen.storyboard */; };
+		40833B9A2BA8A1C400EE10C3 /* PRAKTIKA_BAZA_DTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40833B992BA8A1C400EE10C3 /* PRAKTIKA_BAZA_DTests.swift */; };
+		40833BA42BA8A1C400EE10C3 /* PRAKTIKA_BAZA_DUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40833BA32BA8A1C400EE10C3 /* PRAKTIKA_BAZA_DUITests.swift */; };
+		40833BA62BA8A1C400EE10C3 /* PRAKTIKA_BAZA_DUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40833BA52BA8A1C400EE10C3 /* PRAKTIKA_BAZA_DUITestsLaunchTests.swift */; };
+		40833BB52BA8A22D00EE10C3 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 40833BB42BA8A22D00EE10C3 /* RealmSwift */; };
+		40833BB82BA8A43900EE10C3 /* BD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40833BB72BA8A43900EE10C3 /* BD.swift */; };
+		40833BBA2BA8A5CF00EE10C3 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 40833BB92BA8A5CF00EE10C3 /* SnapKit */; };
+		40986AE32BAB2CBB007A913D /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 40986AE22BAB2CBB007A913D /* Alamofire */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40833B962BA8A1C400EE10C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40833B772BA8A1C200EE10C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40833B7E2BA8A1C200EE10C3;
+			remoteInfo = "PRAKTIKA BAZA D";
+		};
+		40833BA02BA8A1C400EE10C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40833B772BA8A1C200EE10C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40833B7E2BA8A1C200EE10C3;
+			remoteInfo = "PRAKTIKA BAZA D";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40833B7F2BA8A1C200EE10C3 /* PRAKTIKA BAZA D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PRAKTIKA BAZA D.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40833B822BA8A1C200EE10C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40833B842BA8A1C200EE10C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		40833B862BA8A1C200EE10C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		40833B892BA8A1C200EE10C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40833B8B2BA8A1C400EE10C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40833B8E2BA8A1C400EE10C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40833B902BA8A1C400EE10C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40833B952BA8A1C400EE10C3 /* PRAKTIKA BAZA DTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PRAKTIKA BAZA DTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40833B992BA8A1C400EE10C3 /* PRAKTIKA_BAZA_DTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PRAKTIKA_BAZA_DTests.swift; sourceTree = "<group>"; };
+		40833B9F2BA8A1C400EE10C3 /* PRAKTIKA BAZA DUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PRAKTIKA BAZA DUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40833BA32BA8A1C400EE10C3 /* PRAKTIKA_BAZA_DUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PRAKTIKA_BAZA_DUITests.swift; sourceTree = "<group>"; };
+		40833BA52BA8A1C400EE10C3 /* PRAKTIKA_BAZA_DUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PRAKTIKA_BAZA_DUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		40833BB72BA8A43900EE10C3 /* BD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BD.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40833B7C2BA8A1C200EE10C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40986AE32BAB2CBB007A913D /* Alamofire in Frameworks */,
+				40833BB52BA8A22D00EE10C3 /* RealmSwift in Frameworks */,
+				40833BBA2BA8A5CF00EE10C3 /* SnapKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40833B922BA8A1C400EE10C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40833B9C2BA8A1C400EE10C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40833B762BA8A1C200EE10C3 = {
+			isa = PBXGroup;
+			children = (
+				40833B812BA8A1C200EE10C3 /* PRAKTIKA BAZA D */,
+				40833B982BA8A1C400EE10C3 /* PRAKTIKA BAZA DTests */,
+				40833BA22BA8A1C400EE10C3 /* PRAKTIKA BAZA DUITests */,
+				40833B802BA8A1C200EE10C3 /* Products */,
+				40833BB32BA8A22D00EE10C3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		40833B802BA8A1C200EE10C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40833B7F2BA8A1C200EE10C3 /* PRAKTIKA BAZA D.app */,
+				40833B952BA8A1C400EE10C3 /* PRAKTIKA BAZA DTests.xctest */,
+				40833B9F2BA8A1C400EE10C3 /* PRAKTIKA BAZA DUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40833B812BA8A1C200EE10C3 /* PRAKTIKA BAZA D */ = {
+			isa = PBXGroup;
+			children = (
+				40833B842BA8A1C200EE10C3 /* SceneDelegate.swift */,
+				40833B822BA8A1C200EE10C3 /* AppDelegate.swift */,
+				40833B862BA8A1C200EE10C3 /* ViewController.swift */,
+				40833BB72BA8A43900EE10C3 /* BD.swift */,
+				40833B882BA8A1C200EE10C3 /* Main.storyboard */,
+				40833B8B2BA8A1C400EE10C3 /* Assets.xcassets */,
+				40833B8D2BA8A1C400EE10C3 /* LaunchScreen.storyboard */,
+				40833B902BA8A1C400EE10C3 /* Info.plist */,
+			);
+			path = "PRAKTIKA BAZA D";
+			sourceTree = "<group>";
+		};
+		40833B982BA8A1C400EE10C3 /* PRAKTIKA BAZA DTests */ = {
+			isa = PBXGroup;
+			children = (
+				40833B992BA8A1C400EE10C3 /* PRAKTIKA_BAZA_DTests.swift */,
+			);
+			path = "PRAKTIKA BAZA DTests";
+			sourceTree = "<group>";
+		};
+		40833BA22BA8A1C400EE10C3 /* PRAKTIKA BAZA DUITests */ = {
+			isa = PBXGroup;
+			children = (
+				40833BA32BA8A1C400EE10C3 /* PRAKTIKA_BAZA_DUITests.swift */,
+				40833BA52BA8A1C400EE10C3 /* PRAKTIKA_BAZA_DUITestsLaunchTests.swift */,
+			);
+			path = "PRAKTIKA BAZA DUITests";
+			sourceTree = "<group>";
+		};
+		40833BB32BA8A22D00EE10C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40833B7E2BA8A1C200EE10C3 /* PRAKTIKA BAZA D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40833BA92BA8A1C400EE10C3 /* Build configuration list for PBXNativeTarget "PRAKTIKA BAZA D" */;
+			buildPhases = (
+				40833B7B2BA8A1C200EE10C3 /* Sources */,
+				40833B7C2BA8A1C200EE10C3 /* Frameworks */,
+				40833B7D2BA8A1C200EE10C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PRAKTIKA BAZA D";
+			packageProductDependencies = (
+				40833BB42BA8A22D00EE10C3 /* RealmSwift */,
+				40833BB92BA8A5CF00EE10C3 /* SnapKit */,
+				40986AE22BAB2CBB007A913D /* Alamofire */,
+			);
+			productName = "PRAKTIKA BAZA D";
+			productReference = 40833B7F2BA8A1C200EE10C3 /* PRAKTIKA BAZA D.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40833B942BA8A1C400EE10C3 /* PRAKTIKA BAZA DTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40833BAC2BA8A1C400EE10C3 /* Build configuration list for PBXNativeTarget "PRAKTIKA BAZA DTests" */;
+			buildPhases = (
+				40833B912BA8A1C400EE10C3 /* Sources */,
+				40833B922BA8A1C400EE10C3 /* Frameworks */,
+				40833B932BA8A1C400EE10C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40833B972BA8A1C400EE10C3 /* PBXTargetDependency */,
+			);
+			name = "PRAKTIKA BAZA DTests";
+			productName = "PRAKTIKA BAZA DTests";
+			productReference = 40833B952BA8A1C400EE10C3 /* PRAKTIKA BAZA DTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		40833B9E2BA8A1C400EE10C3 /* PRAKTIKA BAZA DUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40833BAF2BA8A1C400EE10C3 /* Build configuration list for PBXNativeTarget "PRAKTIKA BAZA DUITests" */;
+			buildPhases = (
+				40833B9B2BA8A1C400EE10C3 /* Sources */,
+				40833B9C2BA8A1C400EE10C3 /* Frameworks */,
+				40833B9D2BA8A1C400EE10C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40833BA12BA8A1C400EE10C3 /* PBXTargetDependency */,
+			);
+			name = "PRAKTIKA BAZA DUITests";
+			productName = "PRAKTIKA BAZA DUITests";
+			productReference = 40833B9F2BA8A1C400EE10C3 /* PRAKTIKA BAZA DUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40833B772BA8A1C200EE10C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					40833B7E2BA8A1C200EE10C3 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					40833B942BA8A1C400EE10C3 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 40833B7E2BA8A1C200EE10C3;
+					};
+					40833B9E2BA8A1C400EE10C3 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 40833B7E2BA8A1C200EE10C3;
+					};
+				};
+			};
+			buildConfigurationList = 40833B7A2BA8A1C200EE10C3 /* Build configuration list for PBXProject "PRAKTIKA BAZA D" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40833B762BA8A1C200EE10C3;
+			packageReferences = (
+				40833BB22BA8A22500EE10C3 /* XCRemoteSwiftPackageReference "realm-swift" */,
+				40833BB62BA8A23B00EE10C3 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				40986AE12BAB2CB5007A913D /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = 40833B802BA8A1C200EE10C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40833B7E2BA8A1C200EE10C3 /* PRAKTIKA BAZA D */,
+				40833B942BA8A1C400EE10C3 /* PRAKTIKA BAZA DTests */,
+				40833B9E2BA8A1C400EE10C3 /* PRAKTIKA BAZA DUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40833B7D2BA8A1C200EE10C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40833B8F2BA8A1C400EE10C3 /* LaunchScreen.storyboard in Resources */,
+				40833B8C2BA8A1C400EE10C3 /* Assets.xcassets in Resources */,
+				40833B8A2BA8A1C200EE10C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40833B932BA8A1C400EE10C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40833B9D2BA8A1C400EE10C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40833B7B2BA8A1C200EE10C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40833B872BA8A1C200EE10C3 /* ViewController.swift in Sources */,
+				40833BB82BA8A43900EE10C3 /* BD.swift in Sources */,
+				40833B832BA8A1C200EE10C3 /* AppDelegate.swift in Sources */,
+				40833B852BA8A1C200EE10C3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40833B912BA8A1C400EE10C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40833B9A2BA8A1C400EE10C3 /* PRAKTIKA_BAZA_DTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40833B9B2BA8A1C400EE10C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40833BA62BA8A1C400EE10C3 /* PRAKTIKA_BAZA_DUITestsLaunchTests.swift in Sources */,
+				40833BA42BA8A1C400EE10C3 /* PRAKTIKA_BAZA_DUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40833B972BA8A1C400EE10C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40833B7E2BA8A1C200EE10C3 /* PRAKTIKA BAZA D */;
+			targetProxy = 40833B962BA8A1C400EE10C3 /* PBXContainerItemProxy */;
+		};
+		40833BA12BA8A1C400EE10C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40833B7E2BA8A1C200EE10C3 /* PRAKTIKA BAZA D */;
+			targetProxy = 40833BA02BA8A1C400EE10C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40833B882BA8A1C200EE10C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40833B892BA8A1C200EE10C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40833B8D2BA8A1C400EE10C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40833B8E2BA8A1C400EE10C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40833BA72BA8A1C400EE10C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40833BA82BA8A1C400EE10C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40833BAA2BA8A1C400EE10C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2KF4987Y6K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PRAKTIKA BAZA D/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bk.PRAKTIKA-BAZA-D";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40833BAB2BA8A1C400EE10C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2KF4987Y6K;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PRAKTIKA BAZA D/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bk.PRAKTIKA-BAZA-D";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		40833BAD2BA8A1C400EE10C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2KF4987Y6K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bk.PRAKTIKA-BAZA-DTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PRAKTIKA BAZA D.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PRAKTIKA BAZA D";
+			};
+			name = Debug;
+		};
+		40833BAE2BA8A1C400EE10C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2KF4987Y6K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bk.PRAKTIKA-BAZA-DTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PRAKTIKA BAZA D.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PRAKTIKA BAZA D";
+			};
+			name = Release;
+		};
+		40833BB02BA8A1C400EE10C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2KF4987Y6K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bk.PRAKTIKA-BAZA-DUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PRAKTIKA BAZA D";
+			};
+			name = Debug;
+		};
+		40833BB12BA8A1C400EE10C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2KF4987Y6K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bk.PRAKTIKA-BAZA-DUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PRAKTIKA BAZA D";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40833B7A2BA8A1C200EE10C3 /* Build configuration list for PBXProject "PRAKTIKA BAZA D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40833BA72BA8A1C400EE10C3 /* Debug */,
+				40833BA82BA8A1C400EE10C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40833BA92BA8A1C400EE10C3 /* Build configuration list for PBXNativeTarget "PRAKTIKA BAZA D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40833BAA2BA8A1C400EE10C3 /* Debug */,
+				40833BAB2BA8A1C400EE10C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40833BAC2BA8A1C400EE10C3 /* Build configuration list for PBXNativeTarget "PRAKTIKA BAZA DTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40833BAD2BA8A1C400EE10C3 /* Debug */,
+				40833BAE2BA8A1C400EE10C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40833BAF2BA8A1C400EE10C3 /* Build configuration list for PBXNativeTarget "PRAKTIKA BAZA DUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40833BB02BA8A1C400EE10C3 /* Debug */,
+				40833BB12BA8A1C400EE10C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		40833BB22BA8A22500EE10C3 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		40833BB62BA8A23B00EE10C3 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		40986AE12BAB2CB5007A913D /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		40833BB42BA8A22D00EE10C3 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 40833BB22BA8A22500EE10C3 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		40833BB92BA8A5CF00EE10C3 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 40833BB62BA8A23B00EE10C3 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		40986AE22BAB2CBB007A913D /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 40986AE12BAB2CB5007A913D /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 40833B772BA8A1C200EE10C3 /* Project object */;
+}
